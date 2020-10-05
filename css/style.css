@@ -1,0 +1,204 @@
+/* Mobile first queries */
+* {
+    /* border: dotted 1px whitesmoke; */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: Manjari, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main {
+    display: flex;
+    flex-flow: column;
+    padding: 1em;
+}
+
+#page-1, #page-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0em;
+}
+
+
+/* Page 1 */
+#hr-1 {
+    margin-top: 0;
+}
+
+#intro {
+}
+
+#helloworld {
+    font-weight: bolder;
+    font-size: 6vmin;
+}
+
+#im {
+    font-size: 5.5vmin;
+}
+
+#signature {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    padding: 0.5em;
+}
+
+#about {
+    max-width: 50vmax;
+    min-width: 80vmin;
+}
+
+#tagline {
+    font-size: 6vmin;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+
+#interests {
+    font-size: 3.5vmin;
+    line-height: 1.5em;
+}
+
+/* Page 2 */
+#findme {
+    font-size: 6vmin;
+    font-weight: bolder;
+    padding-bottom: 1em;
+}
+
+#links {
+    padding-top: 1em 0em;
+}
+
+.link {
+    flex-basis: 8em;
+    padding: 0.5em;
+    font-size: 4vmin;
+}
+
+#footer {
+    font-size: 3.5vmin;
+    padding-bottom: 1em;
+}
+
+.list-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    vertical-align: middle;
+}
+
+.github:hover { color: #6f42c1; } .linkedin:hover { color: #4b92bb; } .letterboxd:hover { color: #3a4b5b; } .tvtime:hover { color: #ffc65c; } .myanimelist:hover { color: #244797; } .goodreads:hover { color: #864c1d; } .playstation:hover { color: #0e4ab9; } .steam:hover { color: #073566; } .spotify:hover { color: #00d556; } .youtube:hover { color: #ff0007; } .discord:hover { color: #637cd4; } .telegram:hover { color: #009bdb; } .instagram:hover { color: #e72e55; } .snapchat:hover { color: #fffd14 } .twitter:hover { color: #0097ef; } .facebook:hover { color: #006cef; } .leetcode:hover { color: #fd941d; } .hackerrank:hover { color: #00c45b; } .codechef:hover { color: #523d31; }
+.github:active { color: #6f42c1; } .linkedin:active { color: #4b92bb; } .letterboxd:active { color: #3a4b5b; } .tvtime:active { color: #ffc65c; } .myanimelist:active { color: #244797; } .goodreads:active { color: #864c1d; } .playstation:active { color: #0e4ab9; } .steam:active { color: #073566; } .spotify:active { color: #00d556; } .youtube:active { color: #ff0007; } .discord:active { color: #637cd4; } .telegram:active { color: #009bdb; } .instagram:active { color: #e72e55; } .snapchat:active { color: #fffd14 } .twitter:active { color: #0097ef; } .facebook:active { color: #006cef; } .leetcode:active { color: #fd941d; } .hackerrank:active { color: #00c45b; } .codechef:active { color: #523d31; }
+
+.select {
+    -webkit-transform: translateY(-0.2em);
+    transform: translateY(-0.2em);
+    -webkit-transition: transform 0.2s ease 0s;
+    transition: transform 0.2s ease 0s;
+}
+
+.select:active {
+    -webkit-transform: translateY(0em);
+    transform: translateY(0em);
+}
+
+.notextselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Safari */
+    -khtml-user-select: none;    /* Konqueror HTML */
+    -moz-user-select: none;      /* Old versions of Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently supported
+                                    by Chrome, Edge, Opera and Firefox */
+}
+
+
+/* Larger than mobile */
+@media only screen and (min-width: 400px) {
+}
+
+
+/* Larger than phablet */
+@media only screen and (min-width: 550px) {
+}
+
+
+/* Larger than tablet */
+@media only screen and (min-width: 750px) {
+
+    #main {
+        padding: 0em 4em;
+    }
+
+    #page-1, #page-2 {
+        padding: 4em 0em;
+    }
+
+    /* Page 1 */
+    #interests {
+        font-size: 2.5vmin;
+    }
+
+    /* Page 2 */
+    #findme {
+        padding-bottom: 0.5em;
+    }
+
+    .link {
+        font-size: 3.5vmin;
+        padding: 0.25em;
+    }
+
+    #footer {
+        font-size: 2.5vmin;
+        padding: 1em 0em;
+    }
+
+    .select {
+        -webkit-transform: translateY(0.2em);
+        transform: translateY(0.2em);
+        -webkit-transition: transform 0.2s ease 0s;
+        transition: transform 0.2s ease 0s;
+    }
+    
+    .select:hover {
+        -webkit-transform: translateY(0em);
+        transform: translateY(0em);
+    }
+
+}
+
+
+/* Larger than desktop */
+@media only screen and (min-width: 1000px) {
+}
+
+
+/* Larger than Desktop HD */
+@media only screen and (min-width: 1200px) {
+
+}
