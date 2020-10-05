@@ -10,5 +10,6 @@ _Newer iterations of the website will be published on different branches of this
 - [Mozilla MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [CSS-Tricks](https://css-tricks.com/)
 - [StackOverflow](https://stackoverflow.com/)
+- [IcoMoon App](https://icomoon.io/)
 - [W3Schools](https://www.w3schools.com/)
 - [uiGradients](https://uigradients.com/)
