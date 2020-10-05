@@ -10,6 +10,9 @@ _Newer iterations of the website will be published on different branches of this
 - [Mozilla MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [CSS-Tricks](https://css-tricks.com/)
 - [StackOverflow](https://stackoverflow.com/)
-- [IcoMoon App](https://icomoon.io/)
 - [W3Schools](https://www.w3schools.com/)
+- [Sketch](https://www.sketch.com/)
+- [IcoMoon App](https://icomoon.io/)
+- [favicon.io](https://favicon.io/)
 - [uiGradients](https://uigradients.com/)
+- [SVG optimiser](https://petercollingridge.appspot.com/svg-optimiser) by Peter Collingridge
