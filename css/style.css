@@ -172,6 +172,9 @@ a {
 .kaggle:hover {
   color: #2fbffc;
 }
+.alltrails:hover {
+  color: #64f67a;
+}
 .github:active {
   color: #6f42c1;
 }
@@ -231,6 +234,9 @@ a {
 }
 .kaggle:active {
   color: #2fbffc;
+}
+.alltrails:active {
+  color: #64f67a;
 }
 
 .select {
